@@ -22,19 +22,21 @@ https://drive.google.com/file/d/1YRFsY-GNrst0SZEvtFkuV-ngXFOhitSi/view?usp=shari
 ## Screenshots
 
 <div style="display: flex; flex-direction: 'row';">
-<img src="./src/assets/Screenshots/1.jpeg" width=20%>
 <img src="./src/assets/Screenshots/2.jpeg" width=20%>
-<img src="./src/assets/Screenshots/3.jpeg" width=20%>
+<img src="./src/assets/Screenshots/1.jpeg" width=20%>
+<img src="./src/assets/Screenshots/8.jpeg" width=20%>
+<img src="./src/assets/Screenshots/7.jpeg" width=20%>
 <img src="./src/assets/Screenshots/4.jpeg" width=20%>
+<img src="./src/assets/Screenshots/3.jpeg" width=20%>
+<img src="./src/assets/Screenshots/14.jpeg" width=20%>
 <img src="./src/assets/Screenshots/5.jpeg" width=20%>
 <img src="./src/assets/Screenshots/6.jpeg" width=20%>
-<img src="./src/assets/Screenshots/7.jpeg" width=20%>
-<img src="./src/assets/Screenshots/8.jpeg" width=20%>
 <img src="./src/assets/Screenshots/9.jpeg" width=20%>
 <img src="./src/assets/Screenshots/10.jpeg" width=20%>
 <img src="./src/assets/Screenshots/11.jpeg" width=20%>
 <img src="./src/assets/Screenshots/12.jpeg" width=20%>
 <img src="./src/assets/Screenshots/13.jpeg" width=20%>
+
 
 </div>
 
