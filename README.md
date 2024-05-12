@@ -1,64 +1,47 @@
-> [!Important]  
-> This repository is referencing the `mumbai` chain.
-> 
-> `Mumbai` [is deprecated since 08/04/2024](https://blog.thirdweb.com/deprecation-of-mumbai-testnet/), meaning the code in this repository will no longer work out of the box.
->
-> You can still use this repository, however you will have to switch any references to `mumbai` to another chain.
+# React Native FinTech Clone with Clerk
 
-# React Native + thirdweb + TypeScript Starter Template
+This is a React Native Stocks and cryptocurrecy app made for 1% Club assignment which fullfills all the requirements given.
 
-Got questions? Jump into our [Discord](https://discord.gg/thirdweb) to speak with us directly.
+Additional features:
+ 1. Graphical representation of data.
+ 2. Connect your cypto wallet such as metamask.
+ 3. Send/recieve crypto to any wallet address.
+ 4. View Cryptocurrency market Data
+<!-- 
+- [Expo Router](https://docs.expo.dev/routing/introduction/) file-based navigation and API Routes -->
 
-## Getting Started
 
-Create a project using this example:
+## Demo Video:
+https://drive.google.com/file/d/1HQNLP7ZQuU4L3Ru5APciEFnD4QFq4Yp3/view?usp=sharing
 
-```bash
-npx thirdweb create --template react-native-typescript-starter
-```
 
-Install dependencies:
+## Deom APK:
+https://drive.google.com/file/d/1YRFsY-GNrst0SZEvtFkuV-ngXFOhitSi/view?usp=sharing
 
-```bash
-yarn install # or npm install
-```
 
-If you are developing on iOS, you will need to install the pods:
+## Screenshots
 
-```bash
-cd ios && pod install
-```
+<div style="display: flex; flex-direction: 'row';">
+<img src="./src/assets/Screenshots/1.jpeg" width=20%>
+<img src="./src/assets/Screenshots/2.jpeg" width=20%>
+<img src="./src/assets/Screenshots/3.jpeg" width=20%>
+<img src="./src/assets/Screenshots/4.jpeg" width=20%>
+<img src="./src/assets/Screenshots/5.jpeg" width=20%>
+<img src="./src/assets/Screenshots/6.jpeg" width=20%>
+<img src="./src/assets/Screenshots/7.jpeg" width=20%>
+<img src="./src/assets/Screenshots/8.jpeg" width=20%>
+<img src="./src/assets/Screenshots/9.jpeg" width=20%>
+<img src="./src/assets/Screenshots/10.jpeg" width=20%>
+<img src="./src/assets/Screenshots/11.jpeg" width=20%>
+<img src="./src/assets/Screenshots/12.jpeg" width=20%>
+<img src="./src/assets/Screenshots/13.jpeg" width=20%>
 
-## Get a clientId
+</div>
 
-You can [get your clientId](https://thirdweb.com/dashboard/settings/api-keys) from our Dashboard and set it in the `.env` file.
 
-Please, make sure to add your app's `bundleId` in the Allowed Bundle IDs list. Here's more info on [how to get your app's bundleId](https://portal.thirdweb.com/api-keys#how-to-get-my-bundleid)
 
-## Running the app
 
-Android:
 
-```
-yarn android
-```
 
-iOS:
 
-```
-yarn ios
-```
-
-## Learn More
-
-To learn more about thirdweb and React Native, take a look at the following resources:
-
-- [thirdweb Portal](https://portal.thirdweb.com) - check our guides and development resources.
-- [thirdweb SDK](https://portal.thirdweb.com/sdk) - check our guides and development resources.
-- [React Native Documentation](https://reactnative.dev/) - learn about React Native features and API.
-
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+</div>
