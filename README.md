@@ -1,4 +1,4 @@
-# React Native FinTech Clone with Clerk
+
 
 This is a React Native Stocks and cryptocurrecy app made for 1% Club assignment which fullfills all the requirements given.
 
