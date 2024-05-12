@@ -77,7 +77,7 @@ const App: FC = () => {
     <GestureHandlerRootView style={styles.container}>
       <ThirdwebProvider
         activeChain="mumbai"
-        clientId={TW_CLIENT_ID}
+        clientId={"6b9ff5c7fa50310d44c6644d54e8e673"}
         supportedWallets={[
           metamaskWallet({
             recommended: true,

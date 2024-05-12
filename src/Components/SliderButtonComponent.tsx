@@ -48,6 +48,8 @@ const SliderButtonComp: FC<SliderButtonCompProps> = ({
 
   const changestate = () => {
     isend(true);
+    onPressBtn()
+
   };
 
   const animatedGestureHandler = useAnimatedGestureHandler({
@@ -61,7 +63,7 @@ const SliderButtonComp: FC<SliderButtonCompProps> = ({
   });
 
   const InterpolateXInput = [0, 220, 260];
-  const InterpolateXInput2 = [0, 230, 240];
+  const InterpolateXInput2 = [0, 220, 240];
   const InterpolateXInput3 = [0, 250, 260];
   const AnimatedStyles = {
     swipeStyle: useAnimatedStyle(() => {
@@ -104,7 +106,7 @@ const SliderButtonComp: FC<SliderButtonCompProps> = ({
       backgroundColor: interpolateColor(
         X.value,
         [0, 260],
-        [colors.theme, '#5cb85c'],
+        [colors.theme, colors.green],
         'RGB',
         {
           gamma: 10,
@@ -155,6 +157,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     width: '100%',
     height: moderateScale(52),
+    marginBottom:moderateScale(20)
   },
   textView: {
     ...commonStyles.font_20_bold,

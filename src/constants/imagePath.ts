@@ -1,5 +1,11 @@
 export default {
   backIcon: require('../assets/images/backIcon.png'),
+  success: require('../assets/images/success.gif'),
+  i1: require('../assets/images/i1.png'),
+  i2: require('../assets/images/i2.png'),
+  i3: require('../assets/images/i3.png'),
+  i4: require('../assets/images/i4.png'),
+  wallet: require('../assets/images/wallet.png'),
   introOne: require('../assets/images/IntroOne.png'),
   introTwo: require('../assets/images/IntroTwo.png'),
   introThree: require('../assets/images/IntroThree.png'),

@@ -32,6 +32,7 @@ export default {
   themeColorOpacity25: 'rgba(17, 28, 66, 0.25)',
   textColor: '#FFFFFF',
   alto20: '#D9D9D9',
+  green:'#5cb85c',
   cardBackground: '#F4F8FC',
   regentGray: '#84919D',
   whiteLinen: '#FCF7F4',

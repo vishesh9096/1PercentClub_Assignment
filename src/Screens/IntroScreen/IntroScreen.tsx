@@ -15,26 +15,28 @@ interface IntroScreenProps {
 
 const slides = [
   {
-    key: 1,
-    title: 'Live Streaming',
-    text: 'Streaming Life, One Moment at a \n Time',
-    image: imagePath.introOne,
-    backgroundColor: '#59b2ab',
+    key: 3,
+    title: 'Connect with Fellow Traders ',
+    text: 'Bringing Traders Together, One Click \n at a Time.',
+    image: "https://assets-global.website-files.com/64ede0a591d8114fdaa0ae7f/6566cfdf6cfe72177e85fcf7_TheOnepercentClubHomepage_BannerImage.webp",
+    backgroundColor: '#22bcb5',
   },
+  
   {
     key: 2,
-    title: 'Share Stories',
-    text: 'Sharing Moments, Creating \n  Memories.',
-    image: imagePath.introTwo,
+    title: "India's First Finance App",
+    text: 'Invest and grow \n together.',
+    image: "https://assets-global.website-files.com/64ede0a591d8114fdaa0ae7f/65f07615e23ed48268fb9443_1%25club-money-school-finance-modules.webp",
     backgroundColor: '#febe29',
   },
   {
-    key: 3,
-    title: 'Connect with Friends ',
-    text: 'Bringing Friends Together, One Click \n at a Time.',
-    image: imagePath.introThree,
-    backgroundColor: '#22bcb5',
+    key: 1,
+    title: 'Be the top 1%',
+    text: 'Watchlist What matters',
+    image: "https://i.pinimg.com/736x/0e/22/18/0e2218b668cb7d043407ad4a4cf254e4.jpg",
+    backgroundColor: '#59b2ab',
   },
+  
 ];
 
 const IntroScreen = ({navigation}: IntroScreenProps) => {
@@ -54,7 +56,7 @@ const IntroScreen = ({navigation}: IntroScreenProps) => {
   return (
     <WrapperContainer paddingAvailable={false} isSafeAreaAvailable={false}>
       <ImageBackground
-        source={slides[currIndex]?.image}
+        source={{uri:slides[currIndex]?.image.toString()}}
         style={styles.container}>
         <View
           style={{

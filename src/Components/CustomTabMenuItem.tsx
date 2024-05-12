@@ -14,12 +14,10 @@ type PropsType = {
 export const CustomTabMenuItem = ({label, isCurrent, index}: PropsType) => {
   const getImage = () => {
     switch (label) {
-      case navigationStrings.COMING_SOON:
+      case navigationStrings.HOME_SCREEN:
         return imagePath.firstTabIcon;
-      case navigationStrings.COMING_SOON2:
-        return imagePath.secondTabIcon;
-      case navigationStrings.ADD_POST:
-        return imagePath.fourthTabIcon;
+      case navigationStrings.WALLET_CONNECT:
+        return imagePath.wallet;
       case navigationStrings.PROFILE_SCREEN:
         return imagePath.fifthTabIcon;
     }
@@ -52,12 +50,12 @@ const externalStyles = ({isCurrent}: ExternalStylesProps) =>
       height: moderateScale(24),
       width: moderateScale(24),
       resizeMode: 'contain',
-      tintColor: isCurrent ? colors.white : colors.whiteOpacity50,
+      tintColor: isCurrent ? colors.theme : colors.whiteOpacity50,
     },
     underline: {
       height: 3,
       width: '30%',
-      backgroundColor: colors.white,
+      backgroundColor: colors.theme,
       marginTop: moderateScale(4),
     },
   });

@@ -21,32 +21,30 @@ export default function TabRoutes() {
     <View style={styles.tabBarStyle}>
       <Tab.Navigator
         screenOptions={{
-          headerShown: false,
-          // header: () => <AppHeader />,
+
+          header: () => {
+            return(<View>Header</View>)
+          },
         }}
         tabBar={tabBarComp}>
        
         <Tab.Screen
-          name={navigationStrings.COMING_SOON2}
-          component={Screen.ComingSoon}
+          name={navigationStrings.HOME_SCREEN}
+          component={Screen.HomeScreen}
           options={{headerShown: false}}
         />
 
-<Tab.Screen
-          name={navigationStrings.COMING_SOON}
-          component={Screen.ComingSoon}
+        <Tab.Screen
+          name={navigationStrings.WALLET_CONNECT}
+          component={Screen.WalletConnect}
           options={{headerShown: false}}
         />
         <Tab.Screen
           name={navigationStrings.PROFILE_SCREEN}
-          component={Screen.ComingSoon}
+          component={Screen.Profile}
           options={{headerShown: false}}
         />
-        <Tab.Screen
-          name={navigationStrings.COMING_SOON3}
-          component={Screen.ComingSoon}
-          options={{headerShown: false}}
-        />
+        
       </Tab.Navigator>
       {insets.bottom > 0 && (
         <View
